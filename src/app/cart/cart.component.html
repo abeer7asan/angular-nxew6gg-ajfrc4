@@ -1,0 +1,10 @@
+
+<div class="cart-item" *ngFor='let item of cartService.items;'>
+  <span>
+    {{item.name}}
+  </span>
+  <span>
+    {{item.price | currency}}
+  </span>
+
+</div>
